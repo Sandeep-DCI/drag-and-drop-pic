@@ -1,0 +1,40 @@
+body {
+    background-color: beige;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.imgBox {
+    background-image: url('u.jpg');
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    cursor: pointer;
+}
+.whiteBox {
+    width: 210px;
+    height: 210px;
+    margin: 20px;
+    background-color: burlywood;
+   border: 5px solid salmon;
+   border-radius: 10px;
+  
+}
+
+.hold{
+    border: solid 4px red;
+}
+.dashed{
+    background: gray;
+    border-style: dashed;
+}
+
+.hide {
+    display: none;
+}
